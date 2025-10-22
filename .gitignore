@@ -1,0 +1,12 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+Cover_Letter_Fatma_Fendri.pdf
+DAX Calculation.pdf
+
+# Virtual environments
+.venv
