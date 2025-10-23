@@ -7,6 +7,8 @@ wheels/
 *.egg-info
 Cover_Letter_Fatma_Fendri.pdf
 DAX Calculation.pdf
+API_Key.py
+Healthcare.pdf
 
 # Virtual environments
 .venv
