@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG Chatbot</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1 class="header-title">RAG Assistant</h1>
+            <p class="header-subtitle">Powered by Groq and ChromaDB. Context updated via PDF upload below.</p>
+        </div>
+
+        <div class="message-history" id="message-history">
+            </div>
+
+        <div class="upload-section">
+            <form id="upload-form">
+                <input type="file" id="pdf-file-input" accept=".pdf" required>
+                <button type="submit" id="upload-button">Upload PDF Context</button>
+            </form>
+            <div id="upload-status" class="status-message"></div>
+        </div>
+
+        <div class="input-section">
+            <form id="query-form">
+                <input type="text" id="user-query" placeholder="Ask your question..." required>
+                <button type="submit">Send</button>
+            </form>
+            <div id="query-status" class="status-message"></div>
+        </div>
+    </div>
+
+    <template id="message-template">
+        <div class="message-container">
+            <img class="avatar" alt="Avatar">
+            <div class="message-bubble">
+                <p class="message-text"></p>
+            </div>
+        </div>
+    </template>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
