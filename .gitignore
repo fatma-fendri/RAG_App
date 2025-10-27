@@ -9,6 +9,10 @@ Cover_Letter_Fatma_Fendri.pdf
 DAX Calculation.pdf
 API_Key.py
 Healthcare.pdf
+user_avatar.jpeg
+chroma_db/
+vector_store
+frontend/static/images/user_avatar.jpeg
 
 # Virtual environments
 .venv
