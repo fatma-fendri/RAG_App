@@ -30,7 +30,7 @@ The application provides a two-panel interface for document ingestion and real-t
 ### 🎥 Watch the Full Demo Video (via Google Drive)
 
 To see the RAG pipeline in action, click the image below:
-[![Watch the RAG Chatbot Demo Video](https://raw.githubusercontent.com/fatma-fendri/RAG_App/frontend/static/images/Demo2.png)](https://drive.google.com/file/d/1znje1_VLdN78bLTUfoKw8kBc-bhMV97J/view?usp=sharing)
+[![Watch the RAG Chatbot Demo Video](https://raw.githubusercontent.com/fatma-fendri/RAG_App/main/frontend/static/images/Demo2.png)](https://drive.google.com/file/d/1znje1_VLdN78bLTUfoKw8kBc-bhMV97J/view?usp=sharing)
 
 ## 3. RAG Pipeline Flow
 The project is defined by two primary asynchronous processes managed by the FastAPI backend:
@@ -57,6 +57,7 @@ This is the core question-answering process:
 - Python 3.8+
 - A virtual environment (venv).
 - An API Key for Groq.
+
 
 
 
