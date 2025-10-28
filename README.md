@@ -23,7 +23,16 @@ The application is built using a modern, asynchronous architecture that separate
 | **LLM / Generator** | **Groq API** (e.g., Llama-3.1) | Generates the final, context-grounded response with **extremely low latency**. |
 | **Frontend** | **HTML/CSS/JavaScript** | Provides the user interface for document upload and the interactive chat experience. |
 
-## 2. RAG Pipeline Flow
+## 2. Live Demo
+
+The application provides a two-panel interface for document ingestion and real-time querying...
+
+### 🎥 Watch the Full Demo Video (via Google Drive)
+
+To see the RAG pipeline in action, click the image below:
+[![Watch the RAG Chatbot Demo Video](https://raw.githubusercontent.com/fatma-fendri/RAG_App/frontend/static/images/Demo2.png)](https://drive.google.com/file/d/1znje1_VLdN78bLTUfoKw8kBc-bhMV97J/view?usp=sharing)
+
+## 3. RAG Pipeline Flow
 The project is defined by two primary asynchronous processes managed by the FastAPI backend:
 ### A. Context Ingestion Flow (POST /upload-pdf)
 This process updates the chatbot's knowledge base when a new PDF is uploaded:
@@ -48,6 +57,7 @@ This is the core question-answering process:
 - Python 3.8+
 - A virtual environment (venv).
 - An API Key for Groq.
+
 
 
 
